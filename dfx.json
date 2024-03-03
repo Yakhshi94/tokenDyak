@@ -1,0 +1,26 @@
+{
+  "canisters": {
+    "tokenDyak_backend": {
+      "main": "src/tokenDyak_backend/main.mo",
+      "type": "motoko"
+    },
+    "tokenDyak_frontend": {
+      "dependencies": [
+        "tokenDyak_backend"
+      ],
+      "source": [
+        "src/tokenDyak_frontend/dist"
+      ],
+      "type": "assets",
+      "workspace": "tokenDyak_frontend"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
