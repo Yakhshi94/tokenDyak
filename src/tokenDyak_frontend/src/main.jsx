@@ -1,10 +1,11 @@
+import ReactDOM from 'react-dom';
 import React from 'react';
-import ReactDOM from 'react-dom/client';
-import App from './App';
-import './index.scss';
+import App from "./components/App";
+import "./index.css";
 
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-);
+const init = async () => { 
+  ReactDOM.render(<App />, document.getElementById("root"));
+}
+
+init();
+
