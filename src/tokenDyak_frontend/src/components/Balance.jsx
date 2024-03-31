@@ -40,7 +40,7 @@ function Balance() {
           Check Balance
         </button>
       </p>
-      <p hidden={isHidden}>This account has a balance of ${balanceResult} ${symbol}.</p>
+      <p hidden={isHidden}>This account has a balance of {balanceResult} {symbol}.</p>
     </div>
   );
 }

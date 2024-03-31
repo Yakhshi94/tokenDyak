@@ -16,6 +16,7 @@
     "src/tokenDyak_frontend"
   ],
   "dependencies": {
+    "@dfinity/auth-client": "^1.0.1",
     "@material-ui/core": "^4.12.4",
     "@material-ui/icons": "^4.11.3"
   }
